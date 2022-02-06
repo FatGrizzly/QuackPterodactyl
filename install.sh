@@ -28,7 +28,7 @@ else
    echo "Created Backup going furthur"
 fi
 
-sudo curl https://github.com/creatort/QuackPterodactyl/releases/download/int/theme.tar.gz | sudo tar -xz
+sudo curl https://github.com/creatort/QuackPterodactyl/archive/refs/tags/int.tar.gz | sudo tar -xz
 #clear
 cd /var/www/pterodactyl
 
