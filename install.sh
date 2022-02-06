@@ -28,7 +28,7 @@ else
    echo "Created Backup going furthur"
 fi
 
-sudo curl https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V2/resources/DarkNRed/DarkNRed.tar.gz | sudo tar -xz
+sudo curl https://github.com/creatort/QuackPterodactyl/releases/download/int/theme.tar.gz | sudo tar -xz
 #clear
 cd /var/www/pterodactyl
 
@@ -57,4 +57,4 @@ yarn build:production
 #clear
 chown -R www-data:www-data /var/www/pterodactyl/*
 php /var/www/pterodactyl/artisan up
-echo "DarkNRed theme added"
+echo "Theme has been installed."
